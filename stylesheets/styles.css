@@ -1,0 +1,70 @@
+/*styles.css*/
+
+/*Styles for the header section--------------------------*/
+header{
+  background-color: #CEE0B3;
+  height: 10rem;
+}
+
+/*Styles targetting only h1 in header--------------------*/
+header h1{
+  position: absolute;
+  font-size: 35px;
+  background-color: #CEE0B3;
+  color: #523E35;
+}
+
+/*Styles targetting only p in header---------------------*/
+header p{
+  position: relative;
+  float: right;
+  text-align: right;
+  font-size: 15px;
+  background-color: #ECF7D0;
+  color: #523E35;
+}
+img {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+/*Styles targetting only nav in header-------------------*/
+nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8CC04B;
+}
+
+nav a {
+  float: right;
+  background-color: #8CC04B;
+  transition: all 0.5s ease-out;
+  display: block;
+  color: #523E35;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav a:hover{
+  background-color: #523E35;
+  color: white;
+}
+
+/*Styles targetting p in footer------------------------*/
+footer p{
+  position: absolute;
+  bottom: 1%;
+  right: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #523E35;
+}
