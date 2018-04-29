@@ -18,18 +18,19 @@ header h1{
 header p{
   position: relative;
   float: right;
+  padding: 14px 16px;
   text-align: right;
   font-size: 15px;
   background-color: #ECF7D0;
   color: #523E35;
 }
-img {
+header img {
   border-radius: 50%;
-  height: 75px;
-  width: 75px;
+  height: 120px;
+  width: 120px;
   
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 5%;
 }
 
@@ -58,6 +59,18 @@ nav a:hover{
   color: white;
 }
 /*-----------------------------------------------------*/
+
+/*Styles for the articles------------------------------*/
+article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+  position: relative;
+  top: 40px;
+  
+}
 
 /*Styles targetting p in footer------------------------*/
 footer {
