@@ -73,10 +73,12 @@ nav a:hover{
   text-align: center;
 }
 
+/*Sets width of top image on landing page-----------------*/
 .img-slider img{
   width: 900px;
 }
 
+/*Sets font size, positioning and text color for the mini-about section*/
 .mini-about {
   font-size: 20px;
   display: block;
@@ -89,11 +91,7 @@ nav a:hover{
   color: #523E35;
 }
 
-.mini-about h2{
-  padding: 5px 7px;
-  color: #523E35;
-}
-
+/*Sets font size, positioning and text color for the services section*/
 .services{
   text-align: justify;
   font-size: 18px;
@@ -106,12 +104,14 @@ nav a:hover{
   bottom: 300px;
 }
 
+/*Sets positioning and text alignment for services section header*/
 .services h3 {
   position: relative;
   top: 20px;
   text-align: left;
 }
 
+/*Sets size and positioning for image left of the services section*/
 .service-image{
   position: relative;
   left: 100px;
@@ -121,6 +121,7 @@ nav a:hover{
   width: 600px;
 }
 
+/*Sets font size, positioning and alignment for the classes section*/
 .classes {
   font-size: 15px;
   display: block;
@@ -131,9 +132,9 @@ nav a:hover{
   top: 1350px;
   left: 100px;
   color: #523E35;
-  
 }
 
+/*Sets border, text alignment, text color and background color for the classes table*/
 .classes-table {
   display: block;
   
@@ -143,16 +144,13 @@ nav a:hover{
   color: #523E35;
 }
 
-.classes-table th {
-  border: 1px solid #523E35;
-}
-
+.classes-table th {border: 1px solid #523E35;}
 .classes-table td {
   border: 1px solid #523E35;
   text-align: center;
 }
-
-/*Styles targetting p in footer------------------------*/
+/*-----------------------------------------------------*/
+/*Styles targetting p in footer of index.html------------------------*/
 footer {
   position: relative;
   top: 400px;
@@ -163,17 +161,18 @@ footer {
   text-align: center;
 }
 
+/*positions icons in footer----------------------------*/
 .icons{
   position: relative;
   top: 10px;
   padding: 10px;
 }
-
 .icons a {
   padding: 10px;
   color: #523E35;
 }
 
+/*sets position, background color,text color and alignment of index.html footer */
 footer p{
   position: relative;
   top: 5px;
@@ -185,7 +184,9 @@ footer p{
   text-align: center;
   color: #523E35;
 }
+/*----------------------------------------------------*/
 
+/*sets position, background color,text color and alignment of about.html footer */
 .ab-footer{
   position: relative;
   top: 100px;
@@ -196,6 +197,7 @@ footer p{
   text-align: center;
 }
 
+/*sets position, font-size, text color and alignment of nondiscriminatory policy */
 .nd-policy {
   position: relative;
   
@@ -209,8 +211,10 @@ footer p{
   color: #523E35;
   
 }
+/*-----------------------------------------*/
 
 /*About.html styles------------------------*/
+/*sets styles for about header*/
 .about-card {
   color: white;
   background-color: #523E35;
@@ -240,6 +244,7 @@ footer p{
   color: #523E35;
 }
 
+/*Sets styles for three paragraphs in about section on about.html*/
 .headline-1{
   position: relative;
   text-align: justify;
@@ -266,6 +271,7 @@ footer p{
   padding-bottom: 50px; /*To add space between about and instructor sections*/
 }
 
+/*Sets instructor section background color and text color*/
 .instructor-info{
   background-color: #CEE0B3;
   color: #523E35;
@@ -277,6 +283,7 @@ footer p{
   text-align: center;
 }
 
+/*Sets background color, text color and size of instructor header*/
 .instructor-card{
   color: white;
   background-color: #523E35;
@@ -300,6 +307,7 @@ footer p{
   position: relative;
 }
 
+/*Used to keep instructor info all on one row*/
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -307,6 +315,7 @@ footer p{
   grid-auto-rows: minmax(100px, auto);
 }
 
+/*Below are styles that sets the size, position, and image radius for all the instructors*/
 .instructor-1 {
   grid-column: 1;
   grid-row: 1;
