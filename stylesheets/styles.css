@@ -262,6 +262,8 @@ footer p{
   margin-left: auto;
   margin-right: auto;
   color: #523E35;
+  
+  padding-bottom: 50px; /*To add space between about and instructor sections*/
 }
 
 .instructor-info{
